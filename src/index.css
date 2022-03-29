@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+html,body {
+  margin: 0;
+  font-family: 'DM Sans','Bree Serif', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-gray{
+  color:#808080;
+  
+}
+
+a{
+  text-decoration: none;
+}

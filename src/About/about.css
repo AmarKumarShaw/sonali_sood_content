@@ -1,0 +1,62 @@
+.about{
+    padding:4rem;
+}
+
+.about-head p{
+    color: #FABF62;
+    font-size:1.2rem;
+}
+
+.about-section{
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-left img{
+    height: 400px;
+}
+.about-right{
+    padding:2rem;
+    max-width:50%;
+    text-align: start;
+}
+
+.about-right h1{
+    font-size:3rem;
+    color: #FABF62;
+    
+}
+
+.about-right h2{
+    font-size: 2rem;    
+    font-family: 'Bree Serif', sans-serif;
+}
+
+
+/*=================================MEDIA QUERIES================================= */
+@media screen and (max-width:768px){
+    .about{
+        padding:1rem;
+    }
+    
+    .about-left img{
+
+        height: 250px;
+    }
+    .about-right{
+        padding:1rem;
+        max-width:100%;
+       text-align: center;
+    }
+    .about-right h1{
+        font-size:2rem;
+        
+    }
+    
+    
+}

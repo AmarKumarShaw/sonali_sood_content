@@ -1,0 +1,11 @@
+.inner-layout{
+    padding:2rem 3rem 2rem 3rem;
+}
+
+/*=================================MEDIA QUERIES================================= */
+@media screen and (max-width:768px){
+    .inner-layout{
+        padding:1rem;
+    }
+    
+}
